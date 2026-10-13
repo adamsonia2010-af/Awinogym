@@ -1,0 +1,28 @@
+AWINOGYM — VERSION DE TEST PUBLIC
+
+Contenu
+- index.html : application de notation
+- manifest.webmanifest : métadonnées pour installation PWA
+- service-worker.js : cache des fichiers statiques pour réouverture plus rapide/hors ligne
+- icon.svg : icône de l'application
+
+ÉTAT DES PAIEMENTS
+L'activation payante automatique est désactivée. Cette version affiche encore les coordonnées Wave/Orange Money comme information, mais ne confirme aucune transaction et ne génère aucun code automatiquement. Pour un test public, ne demandez pas aux testeurs d'envoyer de l'argent sur la base de cette page.
+
+PUBLICATION GRATUITE CONSEILLÉE : GITHUB PAGES
+1. Créer/se connecter à un compte sur https://github.com/
+2. Créer un nouveau dépôt public nommé awinogym (ou autre nom disponible).
+3. Envoyer les 4 fichiers de ce dossier à la racine du dépôt (index.html, manifest.webmanifest, service-worker.js, icon.svg).
+4. Dans le dépôt, ouvrir Settings > Pages.
+5. Dans Build and deployment, choisir Deploy from a branch, puis la branche main et le dossier /(root), puis Save.
+6. Attendre la fin du déploiement. GitHub affichera l'adresse publique du site dans Settings > Pages. L'adresse sera généralement https://VOTRE-NOM.github.io/awinogym/.
+7. Ouvrir l'adresse en HTTPS sur téléphone pour tester. L'installation sur l'écran d'accueil dépend du navigateur et de l'appareil.
+
+IMPORTANT
+- Le site sera public : le contenu et le profil affichés dans la page seront visibles aux visiteurs. Réfléchir avant de publier des coordonnées personnelles.
+- Les évaluations sont enregistrées dans le stockage local du navigateur, pas dans une base de données partagée. Elles ne se synchronisent pas entre appareils et peuvent être perdues si les données du navigateur sont effacées.
+- Ne placez jamais de clés API ou mots de passe dans ces fichiers.
+- La PWA est une première étape ; elle n'est pas encore une application Play Store.
+
+
+MISE A JOUR CONFIDENTIALITE : les numéros personnels Wave et Orange Money ont été retirés de la page de paiement. Le téléphone du profil est vide par défaut. L’activation payante automatique reste désactivée.
